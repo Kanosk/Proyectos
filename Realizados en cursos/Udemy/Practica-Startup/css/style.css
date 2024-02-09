@@ -1,0 +1,383 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+
+header {
+  background: url(../img/bg.jpg), #019a01;
+  background-size: cover;
+  background-position: center 0;
+  margin-bottom: 50px;
+}
+header .contenedor_logo_menu {
+  padding: 25px 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+header .contenedor_logo_menu .logo {
+  display: block;
+}
+header .contenedor_logo_menu .logo img {
+  vertical-align: top;
+}
+header .menu {
+  text-align: right;
+  line-height: 50px;
+}
+header .menu a {
+  color: #fff;
+  margin-left: 60px;
+  font-size: 18px;
+}
+header .textos {
+  color: #fff;
+  text-align: center;
+  margin: 200px 0;
+}
+header .textos .primera_linea, header .textos .segunda_linea {
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+}
+header .textos .primera_linea {
+  font-size: 35px;
+  line-height: 35px;
+  margin-bottom: 30px;
+}
+header .textos .segunda_linea {
+  font-size: 25px;
+  line-height: 25px;
+  margin-bottom: 60px;
+}
+header .textos .contenedor-btns a {
+  border-radius: 4px;
+  border: 2px solid #fff;
+  color: #fff;
+  padding: 12px 0;
+  font-weight: 600;
+  text-decoration: none;
+  width: 235px;
+  display: inline-block;
+  text-align: center;
+  margin: 0 10px;
+}
+header .textos .contenedor-btns a:hover {
+  background: #fff;
+  color: #4f4f4f;
+}
+
+.main .caracteristicas {
+  margin-bottom: 50px;
+}
+.main .caracteristicas .titulo {
+  text-align: center;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 70px;
+}
+.main .caracteristicas .caracteristica {
+  text-align: center;
+}
+.main .caracteristicas .caracteristica .icono {
+  vertical-align: top;
+  margin-bottom: 30px;
+}
+.main .caracteristicas .caracteristica .primera_linea {
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+.main .caracteristicas .caracteristica .parrafo {
+  margin-bottom: 30px;
+  line-height: 28px;
+}
+.main .fotos {
+  margin-bottom: 70px;
+}
+.main .fotos .foto {
+  margin-bottom: 20px;
+}
+.main .fotos .foto .thumb img {
+  border-radius: 3px;
+  width: 100%;
+  vertical-align: top;
+}
+.main .fotos .foto .texto .titulo {
+  margin-top: 70px;
+  margin-bottom: 40px;
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+}
+.main .fotos .foto .texto .azul {
+  color: rgb(4, 49, 248);
+}
+.main .fotos .foto .texto .naranja {
+  color: rgb(245, 110, 60);
+}
+.main .fotos .foto .texto .parrafo {
+  line-height: 28px;
+}
+.main .fotos .foto .texto .derecha {
+  text-align: right;
+}
+.main .clientes {
+  background: #2d353e;
+  padding: 40px 0;
+}
+.main .clientes .titulo {
+  text-align: center;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 40px;
+}
+.main .clientes .cliente {
+  text-align: center;
+}
+.main .clientes .cliente a {
+  display: block;
+}
+.main .precios {
+  background: url(../img/precios-bg.jpg), rgba(114, 113, 113, 0.4431372549);
+  background-size: cover;
+  background-position: center 0;
+  background-repeat: no-repeat;
+  padding: 70px 0;
+}
+.main .precios .titulo {
+  text-align: center;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  font-weight: 300;
+  color: #fff;
+  margin-bottom: 70px;
+}
+.main .precios .precio .plan {
+  background: #fff;
+  text-align: center;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  padding: 50px 0;
+  margin-bottom: 25px;
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.35);
+}
+.main .precios .precio .plan .nombre {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+.main .precios .precio .plan .precio {
+  font-weight: 300;
+  font-size: 48px;
+  margin-bottom: 30px;
+}
+.main .precios .precio .plan .caracteristicas {
+  list-style: none;
+  padding: 0 20px;
+  margin-bottom: 50px;
+}
+.main .precios .precio .plan .caracteristicas li {
+  font-size: 18px;
+  padding: 15px 0;
+  border-bottom: 1px solid #dedede;
+}
+.main .precios .precio .plan .btn {
+  width: 70%;
+  padding: 15px 0;
+  text-align: center;
+  display: inline-block;
+  border-radius: 100px;
+  text-decoration: none;
+  font-size: 16px;
+}
+.main .precios .precio .verde {
+  color: #86b773;
+}
+.main .precios .precio .verde .caracteristicas {
+  color: #000;
+}
+.main .precios .precio .verde .btn {
+  color: #86b773;
+  border: 2px solid #86b773;
+}
+.main .precios .precio .verde .btn:hover {
+  background: #86b773;
+  color: #fff;
+}
+.main .precios .precio .active {
+  background: #4c8dce;
+  color: #fff;
+}
+.main .precios .precio .active .btn {
+  color: #fff;
+  border: 2px solid #fff;
+}
+.main .precios .precio .active .btn:hover {
+  background: #fff;
+  color: #fff;
+}
+.main .precios .precio .naranja {
+  color: #f78c12;
+}
+.main .precios .precio .naranja .caracteristicas {
+  color: #000;
+}
+.main .precios .precio .naranja .btn {
+  color: #f78c12;
+  border: 2px solid #f78c12;
+}
+.main .precios .precio .naranja .btn:hover {
+  background: #f78c12;
+  color: #fff;
+}
+.main .reviews {
+  padding: 70px 0;
+}
+.main .reviews .titulo {
+  text-align: center;
+  font-family: "Open Sans", Arial, Helvetica, sans-serif;
+  font-weight: 300;
+  font-size: 32px;
+  color: #4c8dce;
+  margin-bottom: 70px;
+}
+.main .reviews .cliente {
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.main .reviews .cliente .foto {
+  width: 20%;
+  float: left;
+  text-align: right;
+}
+.main .reviews .cliente .foto img {
+  max-width: 100px;
+  width: 100%;
+  vertical-align: top;
+  border-radius: 100%;
+}
+.main .reviews .cliente .review {
+  float: left;
+  width: 80%;
+  padding: 0 30px;
+  margin-top: 20px;
+}
+.main .reviews .cliente .review .texto {
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 10px;
+}
+.main .reviews .cliente .review .nombre {
+  color: #ddb146;
+  font-size: 14px;
+}
+.main .reviews .derecha .foto {
+  float: right;
+  text-align: left;
+}
+.main .reviews .derecha .review {
+  float: right;
+  text-align: left;
+}
+
+footer .direccion {
+  background: #3c4045;
+  padding: 30px 0;
+  color: #fff;
+}
+footer .direccion .titulo {
+  font-size: 32px;
+  line-height: 32px;
+  font-weight: 300;
+  margin-bottom: 30px;
+}
+footer .direccion .telefono, footer .direccion .calle, footer .direccion .correo {
+  margin-bottom: 10px;
+}
+footer .direccion .logo img {
+  margin-top: 70px;
+}
+footer .social {
+  text-align: center;
+  padding: 20px 0;
+}
+footer .social a {
+  padding: 10px;
+  display: inline-block;
+  margin: 0 20px;
+  width: 50px;
+  font-size: 22px;
+  border-radius: 100px;
+  color: #fff;
+}
+footer .social a:hover {
+  text-decoration: none;
+}
+footer .social .facebook {
+  background: #3b5993;
+}
+footer .social .twitter {
+  background: #55acee;
+}
+footer .social .youtube {
+  background: #cd201f;
+}
+
+@media screen and (max-width: 992px) {
+  header .contenedor_logo_menu .logo {
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  header .contenedor_logo_menu .menu {
+    text-align: center;
+  }
+  header .contenedor_logo_menu .menu a {
+    margin: 0 20px;
+  }
+  header .textos {
+    margin: 50px 0;
+    font-size: 16px;
+  }
+  header .textos .primera_linea {
+    font-size: 1.5em;
+  }
+  header .textos .segunda_linea {
+    font-size: 1.3em;
+  }
+  header .textos .contenedor-btns a {
+    margin-bottom: 10px;
+  }
+  .main .fotos .foto .titulo {
+    margin-top: 0;
+  }
+  .main .clientes .cliente {
+    margin-bottom: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main .caracteristicas .caracteristica {
+    margin-bottom: 40px;
+  }
+  .main .fotos .foto {
+    text-align: center;
+  }
+  .main .fotos .foto .texto * {
+    text-align: left;
+  }
+  .main .fotos .foto .texto p {
+    margin-bottom: 10px;
+  }
+  footer {
+    text-align: center;
+  }
+  footer .direccion .correo {
+    margin-bottom: 40px;
+  }
+}/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,1 @@
+esta parte es para la practica de crear una web de una empresa o startup usando lo visto en el curso

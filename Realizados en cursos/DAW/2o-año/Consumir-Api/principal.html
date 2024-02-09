@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.2/dist/sweetalert2.min.css" rel="stylesheet">
+    <title>Examen</title>
+</head>
+<body>
+    <div class="container-fluid">
+        <header>
+            <ul class="list-inline bg-light">
+                <li class="list-inline-item me-3"><h4 class="" onclick="borrar()">HomePage</h4></li>
+                <li class="list-inline-item me-3"><a href="#" onclick="loadProducts()">Productos</a></li>
+                <li class="list-inline-item me-3"><a href="#" onclick="formularioAdd()">Añadir Producto</a></li>
+            </ul>
+        </header>
+        <section id="form" style="display: none;">
+        </section>
+        <section class="container"id="products" style="display:none;" >
+        </section>
+    </div>
+    <script src="./bootstrap/js/bootstrap.min.js"></script>
+    <script src="js/main.js" ></script>
+    <script src="js/crud.js" ></script>
+    <script src="js/validacion.js" ></script>
+    <script src="js/Formulario.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11.10.2/dist/sweetalert2.all.min.js"></script>
+</body>
+</html>

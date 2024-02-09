@@ -1,0 +1,1 @@
+Esta practica es para crear una pagina de un restaurante usando lo que se ha visto de JS en el curso

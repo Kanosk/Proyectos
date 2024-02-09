@@ -1,0 +1,3 @@
+2;Trilogía de la Fundación;Isaac Asimov;Ciencia Ficción;895 pág.;img/fundacion.jpg;25,60
+5;Dune;Frank Herbert;Ciencia Ficción;784 pág.;img/dune.jpg;12,74
+7;City of Blades;Robert Jackson Bennett;Ciencia Ficción;689 pág;img/city.jpg;11,32
